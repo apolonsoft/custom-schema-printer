@@ -1,0 +1,21 @@
+{
+  "name": "custom-schema-printer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0",
+    "@nestjs/graphql": "^7.3.11",
+    "rxjs": "^6.5.4"
+  },
+  "peerDependencies": {
+    "graphql": "15.3.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
